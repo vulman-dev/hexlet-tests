@@ -1,6 +1,9 @@
 {
     "type": "module",
     "scripts": {
-      "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+        "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
+    },
+    "dependencies": {
+        "assert": "^2.0.0"
     }
 }
